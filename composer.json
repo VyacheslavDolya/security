@@ -1,0 +1,20 @@
+{
+    "name": "secuity",
+    "description": "Security Cleaner Tools",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Vyacheslav Dolya",
+            "email": "vyacheslav.dolya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Security": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "1.5.3"
+    }
+}
